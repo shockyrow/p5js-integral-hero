@@ -1,1 +1,1 @@
-# p5js-area-painter
+# p5js-integral-hero

@@ -28,7 +28,7 @@ function sliderMoved() {
 function setup() {
   createCanvas(getCanvasWidth(), getCanvasHeight());
   scaling = createSlider(1, 1000, 100, 1);
-  dx = createSlider(.1, 10, 1, .1);
+  dx = createSlider(.1, 32, 8, .1);
   scaling.input(sliderMoved);
   dx.input(sliderMoved);
   noLoop();
